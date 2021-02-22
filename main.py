@@ -1,13 +1,15 @@
 import time
 print("NUMBER THINKING GO")
 time.sleep(3)
-print("You have to think of a number. I will guess it. Enter h for a higher number, l for a lower one and c for a correct guess.")
+print(
+    "You have to think of a number. I will guess it. Enter h for a higher number, l for a lower one and c for a correct guess."
+)
 time.sleep(3)
 while True:
 	upper = int(input("Enter your number limit: "))
 	time.sleep(3)
 	print("My guesses start here:")
-	time.sleep(1) 
+	time.sleep(1)
 	x = 0
 	lower = 1
 	s = round((lower + upper) / 2)
